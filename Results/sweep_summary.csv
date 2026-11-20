@@ -1,0 +1,13 @@
+test_id,category,width_mult,dropout,use_batchnorm,optimizer,learning_rate,lr_scheduler,weight_decay,batch_size,epochs,best_epoch,best_validation_accuracy,trainable_parameters,checkpoint,test_loss,test_accuracy,test_top1_accuracy_percent,test_correct,test_total
+TC01_baseline,baseline,1.0,0.2,True,sgd,0.05,cosine,0.0005,128,100,97,0.9262,2236682,Results/TC01_baseline/best_model.pt,0.27741545968055725,0.9194,91.94,9194,10000
+TC02_width=0.5,width,0.5,0.2,True,sgd,0.05,cosine,0.0005,128,100,99,0.9062,700490,Results/TC02_width=0.5/best_model.pt,0.32070640649795534,0.8958,89.58,8958,10000
+TC03_width=0.75,width,0.75,0.2,True,sgd,0.05,cosine,0.0005,128,100,98,0.9226,1368234,Results/TC03_width=0.75/best_model.pt,0.29652633295059205,0.9115,91.15,9115,10000
+TC04_dropout=0.0,dropout,1.0,0.0,True,sgd,0.05,cosine,0.0005,128,100,99,0.9292,2236682,Results/TC04_dropout=0.0/best_model.pt,0.2919039514064789,0.9159,91.59,9159,10000
+TC05_dropout=0.3,dropout,1.0,0.3,True,sgd,0.05,cosine,0.0005,128,100,92,0.924,2236682,Results/TC05_dropout=0.3/best_model.pt,0.2847797849178314,0.9156,91.56,9156,10000
+TC06_batchnorm=OFF,batchnorm,1.0,0.2,False,sgd,0.05,cosine,0.0005,128,100,1,0.106,2219626,Results/TC06_batchnorm=OFF/best_model.pt,2.3029569149017335,0.1,10.0,1000,10000
+TC07_optimizer=adam_lr=0.001,optimizer,1.0,0.2,True,adam,0.001,cosine,0.0005,128,100,90,0.9154,2236682,Results/TC07_optimizer=adam_lr=0.001/best_model.pt,0.3252233043670654,0.9083,90.83,9083,10000
+TC08_lr=0.01,learning_rate,1.0,0.2,True,sgd,0.01,cosine,0.0005,128,100,86,0.8954,2236682,Results/TC08_lr=0.01/best_model.pt,0.41422039470672606,0.8869,88.69,8869,10000
+TC09_scheduler=step,scheduler,1.0,0.2,True,sgd,0.05,step,0.0005,128,100,81,0.913,2236682,Results/TC09_scheduler=step/best_model.pt,0.30219663391113283,0.9067,90.67,9067,10000
+TC10_scheduler=none,scheduler,1.0,0.2,True,sgd,0.05,none,0.0005,128,100,88,0.8526,2236682,Results/TC10_scheduler=none/best_model.pt,0.4770881675720215,0.8403,84.03,8403,10000
+TC11_weight_decay=0,weight_decay,1.0,0.2,True,sgd,0.05,cosine,0.0,128,100,93,0.8892,2236682,Results/TC11_weight_decay=0/best_model.pt,0.5271633658409118,0.8852,88.52,8852,10000
+TC12_batch_size=64,batch_size,1.0,0.2,True,sgd,0.05,cosine,0.0005,64,100,99,0.9146,2236682,Results/TC12_batch_size=64/best_model.pt,0.2876261783838272,0.9064,90.64,9064,10000

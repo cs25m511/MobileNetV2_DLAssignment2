@@ -1,0 +1,7 @@
+{
+  "test/loss": 0.2919039514064789,
+  "test/accuracy": 0.9159,
+  "test/top1_accuracy_percent": 91.59,
+  "test/correct": 9159,
+  "test/total": 10000
+}

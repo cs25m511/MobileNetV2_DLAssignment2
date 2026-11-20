@@ -1,0 +1,21 @@
+2026-11-20 11:27:15,484 INFO    MainThread:10811 [wandb_init.py:setup_run_log_directory():740] Logging user logs to /home/dsslaptop/Documents/JKWork/IITProjects/DLProjects/MobileNetV2_Assignment/wandb/run-20261120_112715-mesftnuk/logs/debug.log
+2026-11-20 11:27:15,485 INFO    MainThread:10811 [wandb_init.py:setup_run_log_directory():741] Logging internal logs to /home/dsslaptop/Documents/JKWork/IITProjects/DLProjects/MobileNetV2_Assignment/wandb/run-20261120_112715-mesftnuk/logs/debug-internal.log
+2026-11-20 11:27:15,485 INFO    MainThread:10811 [wandb_init.py:init():784] calling init triggers
+2026-11-20 11:27:15,485 INFO    MainThread:10811 [wandb_init.py:init():789] wandb.init called with sweep_config: {}
+config: {'test_id': 'Q2TC24_W6_A4_PT', 'weight_bits': 6, 'activation_bits': 4, 'per_channel': False, '_wandb': {}}
+2026-11-20 11:27:15,485 INFO    MainThread:10811 [wandb_init.py:init():832] starting backend
+2026-11-20 11:27:15,485 INFO    MainThread:10811 [wandb_init.py:init():847] sending inform_init request
+2026-11-20 11:27:15,486 INFO    MainThread:10811 [wandb_init.py:init():852] backend started and connected
+2026-11-20 11:27:15,487 INFO    MainThread:10811 [wandb_init.py:init():922] updated telemetry
+2026-11-20 11:27:15,488 INFO    MainThread:10811 [wandb_init.py:init():940] communicating run to backend with 90.0 second timeout
+2026-11-20 11:27:16,210 INFO    MainThread:10811 [wandb_init.py:init():977] starting run threads in backend
+2026-11-20 11:27:16,233 INFO    MainThread:10811 [wandb_run.py:_console_start():2528] atexit reg
+2026-11-20 11:27:16,233 INFO    MainThread:10811 [wandb_run.py:_redirect():2378] redirect: wrap_raw
+2026-11-20 11:27:16,233 INFO    MainThread:10811 [wandb_run.py:_redirect():2447] Wrapping output streams.
+2026-11-20 11:27:16,233 INFO    MainThread:10811 [wandb_run.py:_redirect():2470] Redirects installed.
+2026-11-20 11:27:16,234 INFO    MainThread:10811 [wandb_init.py:init():1015] run started, returning control to user process
+2026-11-20 11:27:17,991 INFO    MainThread:10811 [wandb_run.py:_finish():2300] finishing run kumarj-indian-institute-of-technology-madras/DLA2Q2MemRun4/mesftnuk
+2026-11-20 11:27:17,991 INFO    MainThread:10811 [wandb_run.py:_atexit_cleanup():2495] got exitcode: 0
+2026-11-20 11:27:17,992 INFO    MainThread:10811 [wandb_run.py:_restore():2477] restore
+2026-11-20 11:27:17,992 INFO    MainThread:10811 [wandb_run.py:_restore():2483] restore done
+2026-11-20 11:27:22,216 INFO    MainThread:10811 [wandb_run.py:_footer_sync_info():3908] logging synced files

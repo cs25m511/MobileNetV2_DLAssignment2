@@ -1,0 +1,13 @@
+{
+  "resident_model_tensor_bytes": 9083592,
+  "device": "cuda",
+  "input_shape": [
+    1,
+    3,
+    32,
+    32
+  ],
+  "cuda_peak_allocated_bytes": 17702400,
+  "cuda_peak_forward_increment_bytes": 8525312,
+  "validation_top1_percent": 92.92
+}

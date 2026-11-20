@@ -1,0 +1,18 @@
+{"time":"2026-11-20T11:13:33.492457831+05:30","level":"INFO","msg":"wandb-core"}
+{"time":"2026-11-20T11:13:33.492480674+05:30","level":"INFO","msg":"stream: starting","core version":"0.31.0"}
+{"time":"2026-11-20T11:13:33.49256433+05:30","level":"INFO","msg":"stream: created new stream","id":"xk8fqdfi"}
+{"time":"2026-11-20T11:13:33.492596035+05:30","level":"INFO","msg":"stream: started"}
+{"time":"2026-11-20T11:13:33.492610569+05:30","level":"INFO","msg":"handler: started"}
+{"time":"2026-11-20T11:13:33.492613359+05:30","level":"INFO","msg":"writer: started","stream_id":"xk8fqdfi"}
+{"time":"2026-11-20T11:13:33.492619743+05:30","level":"INFO","msg":"sender: started"}
+{"time":"2026-11-20T11:13:34.272836288+05:30","level":"INFO","msg":"filestream: sending request","total_files":1,"events_offset":0,"events_lines":1}
+{"time":"2026-11-20T11:13:34.897253489+05:30","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-11-20T11:13:38.175510056+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-11-20T11:13:38.17572095+05:30","level":"INFO","msg":"filestream: sending request","total_files":3,"history_offset":0,"history_lines":1,"console_offset":0,"console_lines":1,"uploaded_len":5,"complete":true,"exit_code":0}
+{"time":"2026-11-20T11:13:38.723403395+05:30","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-11-20T11:13:38.72450317+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-11-20T11:13:38.727422555+05:30","level":"INFO","msg":"stream: finishing up"}
+{"time":"2026-11-20T11:13:38.727430161+05:30","level":"INFO","msg":"handler: closed"}
+{"time":"2026-11-20T11:13:38.727460483+05:30","level":"INFO","msg":"sender: closed"}
+{"time":"2026-11-20T11:13:38.72746746+05:30","level":"INFO","msg":"stream: all finished"}
+{"time":"2026-11-20T11:13:40.728229588+05:30","level":"ERROR","msg":"stream: failed to shut down analytics","error":"shutdown errors: [context deadline exceeded]"}

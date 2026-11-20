@@ -1,0 +1,18 @@
+{"time":"2026-11-20T11:26:18.610860785+05:30","level":"INFO","msg":"wandb-core"}
+{"time":"2026-11-20T11:26:18.610888608+05:30","level":"INFO","msg":"stream: starting","core version":"0.31.0"}
+{"time":"2026-11-20T11:26:18.610981553+05:30","level":"INFO","msg":"stream: created new stream","id":"2rhsg7kf"}
+{"time":"2026-11-20T11:26:18.610994488+05:30","level":"INFO","msg":"handler: started"}
+{"time":"2026-11-20T11:26:18.611152385+05:30","level":"INFO","msg":"stream: started"}
+{"time":"2026-11-20T11:26:18.611165848+05:30","level":"INFO","msg":"writer: started","stream_id":"2rhsg7kf"}
+{"time":"2026-11-20T11:26:18.611175774+05:30","level":"INFO","msg":"sender: started"}
+{"time":"2026-11-20T11:26:19.420205986+05:30","level":"INFO","msg":"filestream: sending request","total_files":1,"events_offset":0,"events_lines":1}
+{"time":"2026-11-20T11:26:19.957741263+05:30","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-11-20T11:26:23.666108846+05:30","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2026-11-20T11:26:23.666477603+05:30","level":"INFO","msg":"filestream: sending request","total_files":3,"history_offset":0,"history_lines":1,"console_offset":0,"console_lines":1,"uploaded_len":5,"complete":true,"exit_code":0}
+{"time":"2026-11-20T11:26:24.100947368+05:30","level":"INFO","msg":"filestream: request sent","status":"200 OK"}
+{"time":"2026-11-20T11:26:24.101853054+05:30","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2026-11-20T11:26:24.103273034+05:30","level":"INFO","msg":"stream: finishing up"}
+{"time":"2026-11-20T11:26:24.103276559+05:30","level":"INFO","msg":"handler: closed"}
+{"time":"2026-11-20T11:26:24.103296122+05:30","level":"INFO","msg":"sender: closed"}
+{"time":"2026-11-20T11:26:24.103298167+05:30","level":"INFO","msg":"stream: all finished"}
+{"time":"2026-11-20T11:26:26.103483275+05:30","level":"ERROR","msg":"stream: failed to shut down analytics","error":"shutdown errors: [context deadline exceeded]"}

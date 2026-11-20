@@ -1,0 +1,12 @@
+{
+  "selected_test_id": "TC04_dropout=0.0",
+  "selection_metric": "best_validation_accuracy",
+  "best_validation_accuracy": 0.9292,
+  "test/loss": 0.2919039514064789,
+  "test/accuracy": 0.9159,
+  "test/top1_accuracy_percent": 91.59,
+  "test/correct": 9159,
+  "test/total": 10000,
+  "checkpoint": "Results/TC04_dropout=0.0/best_model.pt",
+  "note": "Test results are descriptive; model was selected using validation accuracy."
+}

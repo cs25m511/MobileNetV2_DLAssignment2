@@ -1,0 +1,16 @@
+{
+  "os":  "Linux-7.0.0-43-generic-x86_64-with-glibc2.39",
+  "python":  "CPython 3.12.3",
+  "startedAt":  "2026-11-20T05:55:26.699358Z",
+  "args":  [
+    "2"
+  ],
+  "program":  "/home/dsslaptop/Documents/JKWork/IITProjects/DLProjects/MobileNetV2_Assignment/Q2Run.py",
+  "codePath":  "Q2Run.py",
+  "codePathLocal":  "Q2Run.py",
+  "email":  "jai26361@gmail.com",
+  "root":  "/home/dsslaptop/Documents/JKWork/IITProjects/DLProjects/MobileNetV2_Assignment",
+  "host":  "dsslaptop",
+  "executable":  "/home/dsslaptop/.venv/bin/python3",
+  "writerId":  "01a1f786-276c-7e15-bade-060684f151d4"
+}

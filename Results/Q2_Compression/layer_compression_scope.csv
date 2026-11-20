@@ -1,0 +1,143 @@
+layer,class,weight_elements,weight_quantized,activation_packed_boundary,exception
+features.0.0,Conv2d,864,True,False,
+features.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.1.block.0.0,Conv2d,288,True,False,
+features.1.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.1.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.1.block.1,Conv2d,512,True,False,
+features.1.block.2,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.2.block.0.0,Conv2d,1536,True,False,
+features.2.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.2.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.2.block.1.0,Conv2d,864,True,False,
+features.2.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.2.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.2.block.2,Conv2d,2304,True,False,
+features.2.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.3.block.0.0,Conv2d,3456,True,False,
+features.3.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.3.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.3.block.1.0,Conv2d,1296,True,False,
+features.3.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.3.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.3.block.2,Conv2d,3456,True,False,
+features.3.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.4.block.0.0,Conv2d,3456,True,False,
+features.4.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.4.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.4.block.1.0,Conv2d,1296,True,False,
+features.4.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.4.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.4.block.2,Conv2d,4608,True,False,
+features.4.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.5.block.0.0,Conv2d,6144,True,False,
+features.5.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.5.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.5.block.1.0,Conv2d,1728,True,False,
+features.5.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.5.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.5.block.2,Conv2d,6144,True,False,
+features.5.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.6.block.0.0,Conv2d,6144,True,False,
+features.6.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.6.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.6.block.1.0,Conv2d,1728,True,False,
+features.6.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.6.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.6.block.2,Conv2d,6144,True,False,
+features.6.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.7.block.0.0,Conv2d,6144,True,False,
+features.7.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.7.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.7.block.1.0,Conv2d,1728,True,False,
+features.7.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.7.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.7.block.2,Conv2d,12288,True,False,
+features.7.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.8.block.0.0,Conv2d,24576,True,False,
+features.8.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.8.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.8.block.1.0,Conv2d,3456,True,False,
+features.8.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.8.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.8.block.2,Conv2d,24576,True,False,
+features.8.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.9.block.0.0,Conv2d,24576,True,False,
+features.9.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.9.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.9.block.1.0,Conv2d,3456,True,False,
+features.9.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.9.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.9.block.2,Conv2d,24576,True,False,
+features.9.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.10.block.0.0,Conv2d,24576,True,False,
+features.10.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.10.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.10.block.1.0,Conv2d,3456,True,False,
+features.10.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.10.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.10.block.2,Conv2d,24576,True,False,
+features.10.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.11.block.0.0,Conv2d,24576,True,False,
+features.11.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.11.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.11.block.1.0,Conv2d,3456,True,False,
+features.11.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.11.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.11.block.2,Conv2d,36864,True,False,
+features.11.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.12.block.0.0,Conv2d,55296,True,False,
+features.12.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.12.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.12.block.1.0,Conv2d,5184,True,False,
+features.12.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.12.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.12.block.2,Conv2d,55296,True,False,
+features.12.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.13.block.0.0,Conv2d,55296,True,False,
+features.13.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.13.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.13.block.1.0,Conv2d,5184,True,False,
+features.13.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.13.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.13.block.2,Conv2d,55296,True,False,
+features.13.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.14.block.0.0,Conv2d,55296,True,False,
+features.14.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.14.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.14.block.1.0,Conv2d,5184,True,False,
+features.14.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.14.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.14.block.2,Conv2d,92160,True,False,
+features.14.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.15.block.0.0,Conv2d,153600,True,False,
+features.15.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.15.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.15.block.1.0,Conv2d,8640,True,False,
+features.15.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.15.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.15.block.2,Conv2d,153600,True,False,
+features.15.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.16.block.0.0,Conv2d,153600,True,False,
+features.16.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.16.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.16.block.1.0,Conv2d,8640,True,False,
+features.16.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.16.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.16.block.2,Conv2d,153600,True,False,
+features.16.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.17.block.0.0,Conv2d,153600,True,False,
+features.17.block.0.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.17.block.0.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.17.block.1.0,Conv2d,8640,True,False,
+features.17.block.1.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.17.block.1.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+features.17.block.2,Conv2d,307200,True,False,
+features.17.block.3,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.18.0,Conv2d,409600,True,False,
+features.18.1,BatchNorm2d,0,False,False,FP32 / unquantized operation
+features.18.2,ReLU6,0,False,True,Activation packed; FP32 transient decode
+pool,AdaptiveAvgPool2d,0,False,False,FP32 / unquantized operation
+classifier.0,Dropout,0,False,False,FP32 / unquantized operation
+classifier.1,Linear,12800,True,False,
