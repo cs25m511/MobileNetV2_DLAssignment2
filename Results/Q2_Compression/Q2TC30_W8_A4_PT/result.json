@@ -1,0 +1,21 @@
+{
+  "test_id": "Q2TC30_W8_A4_PT",
+  "weight_bits": 8,
+  "activation_bits": 4,
+  "per_channel": false,
+  "original_state_bytes": 9083592,
+  "original_conv_linear_weight_bytes": 8810240,
+  "packed_conv_linear_weight_bytes": 2202560,
+  "auxiliary_fp32_bytes": 273352,
+  "scales_approx_bytes": 356,
+  "estimated_compact_bytes": 2476268,
+  "actual_bundle_bytes": 3634571,
+  "model_file": "Results/Q2_Compression/Q2TC30_W8_A4_PT/packed_model.pt",
+  "test/loss": 3.426342309951782,
+  "test/accuracy": 0.3291,
+  "test/top1_accuracy_percent": 32.91,
+  "test/correct": 3291,
+  "test/total": 10000,
+  "baseline_test_accuracy_percent": 91.59,
+  "accuracy_drop_pp": 58.68000000000001
+}
